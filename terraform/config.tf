@@ -1,9 +1,9 @@
 terraform {
   backend "remote" {
-    organization = "Sylius"
+    organization = "xyz"
 
     workspaces {
-        name = "private-cloud-swibeco"
+        name = "swibeco"
     }
   }
 }

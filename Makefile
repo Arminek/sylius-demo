@@ -4,7 +4,7 @@ init-containers:
 	docker-compose up -d
 
 init-frontend: yarn-install yarn-build
-init-backend: composer-install composer-dump-env install-assets cache-warmup db-schema-up
+init-backend: composer-install composer-dump-env install-assets cache-warmup db-schema-up load-prod-sql-dump
 
 php-shell:
 	docker-compose exec php bash

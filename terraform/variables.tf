@@ -24,7 +24,7 @@ variable "nginx_controller_name" {
 
 variable "sub_domain" {
   type = string
-  default = "ch-demo"
+  default = "swi-demo"
 }
 
 variable "module_namespace" {
